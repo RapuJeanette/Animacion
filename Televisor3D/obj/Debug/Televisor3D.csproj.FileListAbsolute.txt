@@ -1,0 +1,16 @@
+D:\Programacion Grafica\Prueba\1-2024\Televisor3D\Televisor3D\bin\Debug\Televisor3D.exe.config
+D:\Programacion Grafica\Prueba\1-2024\Televisor3D\Televisor3D\bin\Debug\Televisor3D.exe
+D:\Programacion Grafica\Prueba\1-2024\Televisor3D\Televisor3D\bin\Debug\Televisor3D.pdb
+D:\Programacion Grafica\Prueba\1-2024\Televisor3D\Televisor3D\bin\Debug\OpenTK.dll
+D:\Programacion Grafica\Prueba\1-2024\Televisor3D\Televisor3D\bin\Debug\OpenTK.pdb
+D:\Programacion Grafica\Prueba\1-2024\Televisor3D\Televisor3D\bin\Debug\OpenTK.xml
+D:\Programacion Grafica\Prueba\1-2024\Televisor3D\Televisor3D\obj\Debug\Televisor3D.csproj.AssemblyReference.cache
+D:\Programacion Grafica\Prueba\1-2024\Televisor3D\Televisor3D\obj\Debug\Televisor3D.Properties.Resources.resources
+D:\Programacion Grafica\Prueba\1-2024\Televisor3D\Televisor3D\obj\Debug\Televisor3D.csproj.GenerateResource.cache
+D:\Programacion Grafica\Prueba\1-2024\Televisor3D\Televisor3D\obj\Debug\Televisor3D.csproj.CoreCompileInputs.cache
+D:\Programacion Grafica\Prueba\1-2024\Televisor3D\Televisor3D\obj\Debug\Televiso.0815934B.Up2Date
+D:\Programacion Grafica\Prueba\1-2024\Televisor3D\Televisor3D\obj\Debug\Televisor3D.exe
+D:\Programacion Grafica\Prueba\1-2024\Televisor3D\Televisor3D\obj\Debug\Televisor3D.pdb
+D:\Programacion Grafica\Prueba\1-2024\Televisor3D\Televisor3D\bin\Debug\Newtonsoft.Json.dll
+D:\Programacion Grafica\Prueba\1-2024\Televisor3D\Televisor3D\bin\Debug\Newtonsoft.Json.xml
+D:\Programacion Grafica\Prueba\1-2024\Televisor3D\Televisor3D\obj\Debug\Televisor3D.Form1.resources
