@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS0649: El campo 'Cara.Polygon' nunca se asigna y siempre tendrá el valor predeterminado
+dotnet_diagnostic.CS0649.severity = suggestion
