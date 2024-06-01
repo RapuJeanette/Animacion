@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Televisor3D", "Televisor3D\Televisor3D.csproj", "{9EFCF385-427F-471F-A36A-2249AF112241}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BE454D4A-B531-419B-B452-58FA1095CFA0}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EFCF385-427F-471F-A36A-2249AF112241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EFCF385-427F-471F-A36A-2249AF112241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EFCF385-427F-471F-A36A-2249AF112241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EFCF385-427F-471F-A36A-2249AF112241}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4C4AB55-D542-4B52-970A-222E79F0BC00}
+	EndGlobalSection
+EndGlobal
