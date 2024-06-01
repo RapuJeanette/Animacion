@@ -1,0 +1,235 @@
+        public void InicializarObjetos()
+        {
+            Dictionary<string, Vector> pantalla = new Dictionary<string, Vector>();
+            pantalla.Add("v1", new Vector(0.03f, 0.04f, -0.03f));
+            pantalla.Add("v2", new Vector(0.03f, 0.36f, -0.03f));
+            pantalla.Add("v3", new Vector(0.47f, 0.36f, -0.03f));
+            pantalla.Add("v4", new Vector(0.47f, 0.04f, -0.03f));
+
+            Dictionary<string, Vector> paredAdelante = new Dictionary<string, Vector>();
+            paredAdelante.Add("v5", new Vector(0f, 0f, -0.03f));
+            paredAdelante.Add("v6", new Vector(0.5f, 0.5f, -0.03f));
+            paredAdelante.Add("v7", new Vector(0.5f, 0.5f, -0.03f));
+            paredAdelante.Add("v8", new Vector(0f, 0f, -0.03f));
+
+            Dictionary<string, Vector> soporte = new Dictionary<string, Vector>();
+            soporte.Add("v9", new Vector(0.22f, 0f, -0.03f));
+            soporte.Add("v10", new Vector(0.22f, -0.05f, -0.03f));
+            soporte.Add("v11", new Vector(0.26f, -0.05f, -0.03f));
+            soporte.Add("v12", new Vector(0.26f, 0f, -0.03f));
+
+            Dictionary<string, Vector> soporte1 = new Dictionary<string, Vector>();
+            soporte1.Add("v9", new Vector(0.12f, -0.05f, -0.03f));
+            soporte1.Add("v10", new Vector(0.12f, -0.06f, -0.03f));
+            soporte1.Add("v11", new Vector(0.36f, -0.06f, -0.03f));
+            soporte1.Add("v12", new Vector(0.36f, -0.05f, -0.03f));
+
+            Dictionary<string, Vector> paredAtras = new Dictionary<string, Vector>();
+            paredAtras.Add("v13", new Vector(0f, 0f, 0f));
+            paredAtras.Add("v14", new Vector(0.5f, 0f, 0f));
+            paredAtras.Add("v15", new Vector(0.5f, 0.4f, 0f));
+            paredAtras.Add("v16", new Vector(0f, 0.4f, 0f));
+
+            Dictionary<string, Vector> soporteA = new Dictionary<string, Vector>();
+            soporteA.Add("v17", new Vector(0.22f, 0f, 0f));
+            soporteA.Add("v18", new Vector(0.22f, -0.05f, 0f));
+            soporteA.Add("v19", new Vector(0.26f, -0.05f, 0f));
+            soporteA.Add("v20", new Vector(0.26f, 0f, 0f));
+
+            Dictionary<string, Vector> soporteB = new Dictionary<string, Vector>();
+            soporteB.Add("v21", new Vector(0.12f, -0.05f, 0f));
+            soporteB.Add("v22", new Vector(0.12f, -0.06f, 0f));
+            soporteB.Add("v23", new Vector(0.36f, -0.06f, 0f));
+            soporteB.Add("v24", new Vector(0.36f, -0.05f, 0f));
+
+            Dictionary<string, Vector> lateral1 = new Dictionary<string, Vector>();
+            lateral1.Add("v25", new Vector(0f, 0f, 0f));
+            lateral1.Add("v26", new Vector(0f, 0f, -0.03f));
+            lateral1.Add("v27", new Vector(0f, 0.4f, -0.03f));
+            lateral1.Add("v28", new Vector(0f, 0.4f, 0f));
+
+            Dictionary<string, Vector> lateral2 = new Dictionary<string, Vector>();
+            lateral2.Add("v29", new Vector(0.5f, 0f, 0f));
+            lateral2.Add("v30", new Vector(0.5f, 0f, -0.03f));
+            lateral2.Add("v31", new Vector(0.5f, 0.4f, -0.03f));
+            lateral2.Add("v32", new Vector(0.5f, 0.4f, 0f));
+
+            Dictionary<string, Vector> lateral3 = new Dictionary<string, Vector>();
+            lateral3.Add("v33", new Vector(0.12f, -0.05f, 0f));
+            lateral3.Add("v34", new Vector(0.12f, -0.05f, -0.03f));
+            lateral3.Add("v35", new Vector(0.12f, -0.06f, -0.03f));
+            lateral3.Add("v36", new Vector(0.12f, -0.06f, 0f));
+
+            Dictionary<string, Vector> lateral4 = new Dictionary<string, Vector>();
+            lateral4.Add("v37", new Vector(0.36f, -0.05f, 0f));
+            lateral4.Add("v38", new Vector(0.36f, -0.05f, -0.03f));
+            lateral4.Add("v39", new Vector(0.36f, -0.06f, -0.03f));
+            lateral4.Add("v40", new Vector(0.36f, -0.06f, 0f));
+
+            Dictionary<string, Vector> lateral5 = new Dictionary<string, Vector>();
+            lateral5.Add("v41", new Vector(0.22f, -0.05f, 0f));
+            lateral5.Add("v42", new Vector(0.22f, -0.05f, -0.03f));
+            lateral5.Add("v43", new Vector(0.22f, 0f, -0.03f));
+            lateral5.Add("v44", new Vector(0.22f, 0f, 0f));
+
+            Dictionary<string, Vector> lateral6 = new Dictionary<string, Vector>();
+            lateral6.Add("v41", new Vector(0.26f, -0.05f, 0f));
+            lateral6.Add("v42", new Vector(0.26f, -0.05f, -0.03f));
+            lateral6.Add("v43", new Vector(0.26f, 0f, -0.03f));
+            lateral6.Add("v44", new Vector(0.26f, 0f, 0f));
+
+            Dictionary<string, Cara> cara = new Dictionary<string, Cara>();
+            cara.Add(" c1", new Cara(pantalla, Color.Black, new Vector(0f, 0f, 0f)));
+            cara.Add(" c2 ", new Cara(paredAdelante, Color.DarkBlue, new Vector(0f, 0f, 0f)));
+            cara.Add(" c5 ", new Cara(paredAtras, Color.DarkKhaki, new Vector(0f, 0f, 0f)));
+            cara.Add(" c8 ", new Cara(lateral1, Color.DarkGray, new Vector(0f, 0f, 0f)));
+            cara.Add(" c9 ", new Cara(lateral2, Color.DarkGreen, new Vector(0f, 0f, 0f)));
+
+            Dictionary<string, Cara> cara1 = new Dictionary<string, Cara>();
+            cara1.Add(" c3 ", new Cara(soporte, Color.Yellow, new Vector(0f, 0f, 0f)));
+            cara1.Add(" c4 ", new Cara(soporte1, Color.Yellow, new Vector(0f, 0f, 0f)));
+            cara1.Add(" c6 ", new Cara(soporteA, Color.Aquamarine, new Vector(0f, 0f, 0f)));
+            cara1.Add(" c7 ", new Cara(soporteB, Color.Aquamarine, new Vector(0f, 0f, 0f)));
+            cara1.Add(" c10 ", new Cara(lateral3, Color.Red, new Vector(0f, 0f, 0f)));
+            cara1.Add(" c11 ", new Cara(lateral4, Color.Red, new Vector(0f, 0f, 0f)));
+            cara1.Add(" c12 ", new Cara(lateral5, Color.Red, new Vector(0f, 0f, 0f)));
+            cara1.Add(" c13 ", new Cara(lateral6, Color.Red, new Vector(0f, 0f, 0f)));
+
+            Dictionary<string, Vector> cAdelante = new Dictionary<string, Vector>();
+            cAdelante.Add("v01", new Vector(0.04f, 0.4f, -0.03f));
+            cAdelante.Add("v02", new Vector(0.22f, 0.4f, -0.03f));
+            cAdelante.Add("v03", new Vector(0.24f, 0.8f, -0.03f));
+            cAdelante.Add("v04", new Vector(0.26f, 1.0f, -0.03f));
+            cAdelante.Add("v05", new Vector(0.06f, 1.0f, -0.03f));
+
+            Dictionary<string, Vector> atras = new Dictionary<string, Vector>();
+            atras.Add("v06", new Vector(0.04f, 0.4f, 0.03f));
+            atras.Add("v07", new Vector(0.22f, 0.4f, 0.03f));
+            atras.Add("v08", new Vector(0.24f, 0.8f, 0.03f));
+            atras.Add("v09", new Vector(0.26f, 1.0f, 0.03f));
+            atras.Add("v010", new Vector(0.06f, 1.0f, 0.03f));
+
+            Dictionary<string, Vector> lt1 = new Dictionary<string, Vector>();
+            lt1.Add("v011", new Vector(0.04f, 0.4f, 0.03f));
+            lt1.Add("v012", new Vector(0.04f, 0.4f, -0.03f));
+            lt1.Add("v013", new Vector(0.06f, 1.0f, -0.03f));
+            lt1.Add("v014", new Vector(0.06f, 1.0f, 0.03f));
+
+            Dictionary<string, Vector> lt2 = new Dictionary<string, Vector>();
+            lt2.Add("v015", new Vector(0.22f, 0.4f, 0.03f));
+            lt2.Add("v016", new Vector(0.24f, 0.8f, 0.03f));
+            lt2.Add("v017", new Vector(0.26f, 1.0f, 0.03f));
+            lt2.Add("v018", new Vector(0.26f, 1.0f, -0.03f));
+            lt2.Add("v019", new Vector(0.24f, 0.8f, -0.03f));
+            lt2.Add("v020", new Vector(0.22f, 0.4f, -0.03f));
+
+            Dictionary<string, Cara> cara2 = new Dictionary<string, Cara>();
+            cara2.Add(" c1", new Cara(cAdelante, Color.BlueViolet, new Vector(0f, 0f, 0f)));
+            cara2.Add(" c2 ", new Cara(atras, Color.Pink, new Vector(0f, 0f, 0f)));
+            cara2.Add(" c3 ", new Cara(lt1, Color.DarkMagenta, new Vector(0f, 0f, 0f)));
+            cara2.Add(" c4 ", new Cara(lt2, Color.DarkMagenta, new Vector(0f, 0f, 0f)));
+
+            Dictionary<string, Vector> ad = new Dictionary<string, Vector>();
+            ad.Add("1", new Vector(0f, 0f, 0f));
+            ad.Add("2", new Vector(0.4f, 0f, 0f));
+            ad.Add("3", new Vector(0.4f, 0.7f, 0f));
+            ad.Add("4", new Vector(0f, 0.7f, 0f));
+
+            Dictionary<string, Vector> aa = new Dictionary<string, Vector>();
+            aa.Add("5", new Vector(0f, 0f, -0.52f));
+            aa.Add("6", new Vector(0.4f, 0f, -0.52f));
+            aa.Add("7", new Vector(0.4f, 0.7f, -0.52f));
+            aa.Add("8", new Vector(0f, 0.7f, -0.52f));
+
+            Dictionary<string, Vector> p1 = new Dictionary<string, Vector>();
+            p1.Add("9", new Vector(0f, 0f, 0f));
+            p1.Add("10", new Vector(0f, 0f, -0.52f));
+            p1.Add("11", new Vector(0f, 0.7f, -0.52f));
+            p1.Add("12", new Vector(0f, 0.7f, 0f));
+
+            Dictionary<string, Vector> p2 = new Dictionary<string, Vector>();
+            p2.Add("13", new Vector(0.4f, 0f, 0f));
+            p2.Add("14", new Vector(0.4f, 0f, -0.52f));
+            p2.Add("15", new Vector(0.4f, 0.7f, -0.52f));
+            p2.Add("16", new Vector(0.4f, 0.7f, 0f));
+
+            Dictionary<string, Vector> ad1 = new Dictionary<string, Vector>();
+            ad1.Add("17", new Vector(0.5f, 0f, 0f));
+            ad1.Add("18", new Vector(0.9f, 0f, 0f));
+            ad1.Add("19", new Vector(0.9f, 0.7f, 0f));
+            ad1.Add("20", new Vector(0.5f, 0.7f, 0f));
+
+            Dictionary<string, Vector> aa1 = new Dictionary<string, Vector>();
+            aa1.Add("21", new Vector(0.5f, 0f, -0.52f));
+            aa1.Add("22", new Vector(0.9f, 0f, -0.52f));
+            aa1.Add("23", new Vector(0.9f, 0.7f, -0.52f));
+            aa1.Add("24", new Vector(0.5f, 0.7f, -0.52f));
+
+            Dictionary<string, Vector> pa1 = new Dictionary<string, Vector>();
+            pa1.Add("25", new Vector(0.5f, 0f, 0f));
+            pa1.Add("26", new Vector(0.5f, 0f, -0.52f));
+            pa1.Add("27", new Vector(0.5f, 0.7f, -0.52f));
+            pa1.Add("28", new Vector(0.5f, 0.7f, 0f));
+
+            Dictionary<string, Vector> pa2 = new Dictionary<string, Vector>();
+            pa2.Add("29", new Vector(0.9f, 0f, 0f));
+            pa2.Add("30", new Vector(0.9f, 0f, -0.52f));
+            pa2.Add("31", new Vector(0.9f, 0.7f, -0.52f));
+            pa2.Add("32", new Vector(0.9f, 0.7f, 0f));
+
+            Dictionary<string, Vector> parIz = new Dictionary<string, Vector>();
+            for (int i = 0; i < 360; i += 10)
+            {
+                double radianes = i * Math.PI / 180.0;
+                double x = 0.1 * Math.Cos(radianes);
+                double y = 0.1 * Math.Sin(radianes);
+                parIz.Add($"v{i}", new Vector(x + 0.2, y + 0.35, -0.52f));
+            }
+
+            Dictionary<string, Vector> ParlDer = new Dictionary<string, Vector>();
+            for (int i = 0; i < 360; i += 10)
+            {
+                double radianes = i * Math.PI / 180.0; // Convertir grados a radianes
+                double x = 0.1 * Math.Cos(radianes);
+                double y = 0.1 * Math.Sin(radianes);
+                ParlDer.Add($"v{i}", new Vector(x + 0.7, y + 0.35, -0.52)); // Ajustar las coordenadas
+            }
+
+            Dictionary<string, Cara> cara3 = new Dictionary<string, Cara>();
+            cara3.Add(" c09 ", new Cara(parIz, Color.Black, new Vector(0f, 0f, 0f)));
+            cara3.Add(" c010 ", new Cara(ParlDer, Color.Black, new Vector(0f, 0f, 0f)));
+            cara3.Add(" c01", new Cara(ad, Color.Black, new Vector(0f, 0f, 0f)));
+            cara3.Add(" c02 ", new Cara(aa, Color.Gold, new Vector(0f, 0f, 0f)));
+            cara3.Add(" c03 ", new Cara(p1, Color.Blue, new Vector(0f, 0f, 0f)));
+            cara3.Add(" c04 ", new Cara(p2, Color.Blue, new Vector(0f, 0f, 0f)));
+            cara3.Add(" c05", new Cara(ad1, Color.Black, new Vector(0f, 0f, 0f)));
+            cara3.Add(" c06 ", new Cara(aa1, Color.Gold, new Vector(0f, 0f, 0f)));
+            cara3.Add(" c07 ", new Cara(pa1, Color.Blue, new Vector(0f, 0f, 0f)));
+            cara3.Add(" c08 ", new Cara(pa2, Color.Blue, new Vector(0f, 0f, 0f)));
+
+            Dictionary<string, Parte> parte1 = new Dictionary<string, Parte>();
+            parte1.Add("p1", new Parte(cara, new Vector(0f, 0f, 0f)));
+            parte1.Add("p2", new Parte(cara1, new Vector(0f, 0f, 0f)));
+
+            Dictionary<string, Parte> parte2 = new Dictionary<string, Parte>();
+            parte2.Add("p2", new Parte(cara2, new Vector(0f, 0f, 0f)));
+
+            Dictionary<string, Parte> parte3 = new Dictionary<string, Parte>();
+            parte3.Add("p3", new Parte(cara3, new Vector(0f, 0f, 0f)));
+
+            Objeto objeto1 = new Objeto(parte1, new Vector(0.3, -0.9, -0.05));
+            ArchivoJson<Objeto>.Guardar("../../Objetos/tele.json", objeto1);
+            Objeto tele = ArchivoJson<Objeto>.Cargar("../../Objetos/tele.json");
+            objetos.Add("Televisor", tele);
+
+            Objeto objeto2 = new Objeto(parte2, new Vector(0.3, -0.9, -0.05));
+            ArchivoJson<Objeto>.Guardar("../../Objetos/jarron.json", objeto2);
+            Objeto jarron = ArchivoJson<Objeto>.Cargar("../../Objetos/jarron.json");
+            objetos.Add("Jarron", jarron);
+
+            Objeto objeto3 = new Objeto(parte3, new Vector(0.7, -0.9, 0.0));
+            ArchivoJson<Objeto>.Guardar("../../Objetos/Reproductor.json", objeto3);
+            Objeto reproductor = ArchivoJson<Objeto>.Cargar("../../Objetos/Reproductor.json");
+            objetos.Add("Reproductor", reproductor);
+
+        }
